@@ -8,7 +8,7 @@ La necesidad de centralizar y automatizar las operaciones bancarias básicas (de
 
 ## 3. Diagrama de contexto
 
-![Diagrama de Contexto de Bankify](C:\Laboratorios DOSW\lab3DOSW\DOSW_LAB03_Bootcamp_Daniel_Sebastian_Jeimmy\Docs\uml\Bankify_Context_Diagram.drawio.png)
+![](https://github.com/VanessaTorresM/DOSW_LAB03_Bootcamp_Daniel_Sebastian_Jeimmy/blob/feature/DOSW-02-proj-scope/Docs/images/diagrama%20de%20contexto.jpeg)
 
 [Ver diagrama en pantalla completa](C:\Laboratorios DOSW\lab3DOSW\DOSW_LAB03_Bootcamp_Daniel_Sebastian_Jeimmy\Docs\uml\Bankify_Context_Diagram.drawio.png)
 
