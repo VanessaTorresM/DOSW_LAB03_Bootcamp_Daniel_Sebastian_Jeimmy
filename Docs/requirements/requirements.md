@@ -57,8 +57,68 @@ Flujo alterno:
       3) Sistema NO las reconoce como validas
       4) Mensaje de error indicando por que no se pudo acceder
 
-# Consultar saldo 
-# Realizar pago
+## Consultar saldo
+
+Codigo: RF-02
+
+Nombre: Consulta saldo
+
+Descripcion: El sistema debe permitir al cliente visualizar el saldo disponible de su cuenta
+
+Como se ejecutara: El cliente autenticado selecciona la opcion de consultar saldo, y el sistema le muestra su saldo actualizado segun la informacion de la base de datos
+
+Actor Principal: Cliente
+
+Precondiciones: 
+
+      1) El cliente debe estar autenticado
+      2) La cuenta del cliente debe estar activa
+
+Datos de entrada: La solicitud del cliente por ver su saldo
+
+Datos de salida: Saldo actual del cliente con fecha de ultima actualizacion
+
+Flujo Basico:
+
+      1) Cliente selecciona la opcion de consultar saldo
+      2) El sistema revisa la informacion con la base de datos
+      3) Sistema retorna el saldo actual del cliente con ultima fecha de modificacion
+
+Flujo alterno:
+
+      1) Si hay un error en la cuenta o un fallo de conectividad con el acceso a la informacion se muestra un mensaje a el usuario indicando el error
+
+## Realizar pago
+
+Codigo: RF-03
+
+Nombre: Realizar pago
+
+Descripcion: El sistema debe permitir al cliente realizar pagos desde su cuenta hacia terceros
+
+Como se ejecutara: El cliente autenticado ingresa los datos requeridos del destinatario, el sitema revisa el saldo del cliente para verificar saldo suficiente y registra la transaccion
+
+Actor Principal: Cliente
+
+Precondiciones: 
+
+      1) El cliente debe estar autenticado
+      2) La cuenta del cliente debe estar activa
+      3) La cuenta debe tener saldo suficiente
+
+Datos de entrada: La solicitud del cliente por ver su saldo
+
+Datos de salida: Saldo actual del cliente con fecha de ultima actualizacion
+
+Flujo Basico:
+
+      1) Cliente selecciona la opcion de consultar saldo
+      2) El sistema revisa la informacion con la base de datos
+      3) Sistema retorna el saldo actual del cliente con ultima fecha de modificacion
+
+Flujo alterno:
+
+      1) Si hay un error en la cuenta o un fallo de conectividad con el acceso a la informacion se muestra un mensaje a el usuario indicando el error
 
 
 
