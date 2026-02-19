@@ -22,9 +22,46 @@
 
 # Detalle de requerimientos funcionales
 
-1) Autenticacion del usuario 
-2) Consultar saldo 
-3) Realizar pago
+## Autenticacion del usuario
+
+Codigo: RF-01
+
+Nombre: Autenticacion del usuario
+
+Descripcion: El sistema debe permitir que clientes y operadores accedan mediante credenciales validas como usuario y contraseña
+
+Como se ejecutara: El usuario ingresa sus credenciales en la parte de login y el sistema valida la informacion y si es correcta o incorrecta
+
+Actor Principal: Cliente u operador
+
+Precondiciones: 
+
+      1) El usuario debe estar registrado en el sistema
+      2) La cuenta del usuario debe estar activa
+
+Datos de entrada: Usuario y contraseña
+
+Datos de salida: Acceso al sistema en caso de ser valido y en caso contrario un mensaje indicando el por que no se pudo acceder
+
+Flujo Basico:
+
+      1) Usuario ingresa a login
+      2) Usuario ingresa credenciales
+      3) Sistema las reconoce como validas
+      4) Acceso de usuario a sistema
+
+Flujo alterno:
+
+      1) Usuario ingresa a login
+      2) Usuario ingresa credenciales
+      3) Sistema NO las reconoce como validas
+      4) Mensaje de error indicando por que no se pudo acceder
+
+# Consultar saldo 
+# Realizar pago
+
+
+
 
 
 
