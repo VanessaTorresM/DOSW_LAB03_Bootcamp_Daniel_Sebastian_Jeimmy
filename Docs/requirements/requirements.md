@@ -17,3 +17,14 @@
 3)	Capacidad para recuperación de la información por algún fallo 
 4)	Que la interfaz sea intuitiva para el fácil manejo del usuario
 5)	Que tenga diseño responsive para poder verla desde cualquier dispositivo
+
+---
+
+# Detalle de requerimientos funcionales
+
+1) Autenticacion del usuario 
+2) Consultar saldo 
+3) Realizar pago
+
+
+
