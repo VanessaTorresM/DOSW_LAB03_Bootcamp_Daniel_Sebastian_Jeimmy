@@ -12,7 +12,7 @@
 
 ## Requerimientos no funcionales
 
-1) Garantizar el crecimiento de la cantidad de usuarios
+1)    Garantizar el crecimiento de la cantidad de usuarios
 2)	Tener un buen tiempo de respuesta, cargar cada parte de la pagina en menos de 4 segundos
 3)	Capacidad para recuperación de la información por algún fallo 
 4)	Que la interfaz sea intuitiva para el fácil manejo del usuario
@@ -120,7 +120,29 @@ Flujo alterno:
 
       1) Si hay saldo insuficiente se da un mensaje de error a el usuario explicando el motivo
       2) Si la cuenta del destinatario es invalida, se le da un mensaje a el usuario notificando el error
-      
+
+---
+# Preguntas
+
+a. ¿Identifica algún requerimiento que deba detallarse más? ¿cuál(es)?
+
+R/ Poder realizar depósito de dinero de una forma controlada
+
+b. ¿Existen requerimientos que se contradigan entre sí? ¿cuál(es)?
+
+R/ No, cada requerimiento habla de una opcion diferente y no contradice lo mencionado en algun otro
+
+c. Si tuviera que dar una prioridad a los requerimientos, ¿cuáles deberían ser los 2 más importantes que deberían implementarse en una primera iteración del proyecto?
+
+R/ 
+1) Permitir autenticación de usuarios, utilizando usuario y contraseña
+2) Poder consultar el saldo de una cuenta
+
+Estas 2, ya que la autenticacion de la cuenta es de suma importancia para la seguridad tanto del banco mo la de los usuarios y ademas la consulta del saldo es mas importante que la realizacion de un pago, ya que sin saber tu saldo nop puedes estar seguro de si tienes el dinero suficiente.
+
+d. ¿Existe algún requerimiento que no debería realizarse?
+     
+R/Tener un buen tiempo de respuesta, cargar cada parte de la pagina en menos de 4 segundos, no se puede asegurar ese tiempo de respuesta, ya que no solo depende de lo que se desarrolle sino tambien de factores externos incontrolables.
 
 
 
