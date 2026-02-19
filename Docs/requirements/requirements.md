@@ -106,19 +106,22 @@ Precondiciones:
       2) La cuenta del cliente debe estar activa
       3) La cuenta debe tener saldo suficiente
 
-Datos de entrada: La solicitud del cliente por ver su saldo
+Datos de entrada: Numero de cuenta del destinatario y monto a enviar
 
-Datos de salida: Saldo actual del cliente con fecha de ultima actualizacion
+Datos de salida: Confirmacion del pago
 
 Flujo Basico:
 
-      1) Cliente selecciona la opcion de consultar saldo
-      2) El sistema revisa la informacion con la base de datos
-      3) Sistema retorna el saldo actual del cliente con ultima fecha de modificacion
+      1) Cliente ingresa los datos del pago
+      2) El sistema revisa la informacion del destinatario y del saldo, para que sean correctas y veridicas
+      3) Sistema registra la transaccion y se la confoirma a el usuario
 
 Flujo alterno:
 
-      1) Si hay un error en la cuenta o un fallo de conectividad con el acceso a la informacion se muestra un mensaje a el usuario indicando el error
+      1) Si hay saldo insuficiente se da un mensaje de error a el usuario explicando el motivo
+      2) Si la cuenta del destinatario es invalida, se le da un mensaje a el usuario notificando el error
+      
+
 
 
 
