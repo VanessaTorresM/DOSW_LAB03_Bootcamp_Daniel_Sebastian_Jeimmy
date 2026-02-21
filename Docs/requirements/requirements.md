@@ -144,6 +144,23 @@ d. ¿Existe algún requerimiento que no debería realizarse?
      
 R/Tener un buen tiempo de respuesta, cargar cada parte de la pagina en menos de 4 segundos, no se puede asegurar ese tiempo de respuesta, ya que no solo depende de lo que se desarrolle sino tambien de factores externos incontrolables.
 
+---
+# Mockup
+
+## URL
+
+    https://www.figma.com/design/4KF2meLkxB0JbxuDfCXLje/Bankify?node-id=0-1&t=naiDW17e8Wm1ueUq-1
+
+## Breve explicacion
+
+En la pagina 1 al darle al boton de realizar pago, se dirige a la pagina 2.
+En la pagina 2 al llenar las casillas y darle continuar se dirige a la pagina 3.
+En la pagina 3 al darle confirmar pago se dirige a la pagina 4.
+En la pagina 4 se finaliza el mockup de la funcionalidad seleccionada en el caso de que el pago si fue exitoso.
+
+
+
+
 
 
 
